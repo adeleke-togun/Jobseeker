@@ -14,7 +14,8 @@ a {
 
 h1 {
 	font-family: 'Ubuntu', sans-serif;
-	padding-bottom: 8px;	
+	padding-bottom: 15px;
+	font-size: 3vw;	
 }
 
 
@@ -32,7 +33,7 @@ HEADER
 	position: absolute;
 	top: 0.9em;
 	left: 3em;
-	max-height: 10%;
+	max-height: 12vw;
 }
 
 nav {
@@ -43,8 +44,8 @@ nav {
 	top: 0;
 	left: 0
 	right: 0;
-	min-width: 89.5%;
-	max-width: 89.5%
+	min-width: 91%;
+	max-width: 100%;
 }
 
 nav ul {
@@ -67,14 +68,14 @@ nav ul li {
 }
 
 .list li {
-	padding-bottom: 4px;
-	font-size: 0.9em;
+	padding-bottom: 7px;
+	font-size: 11px;
 }
 
 #top_info {
 	position: absolute;
-	top: 5.5em;
-	left: 7em;
+	top: 21vw;
+	left: 14vw;
 }
 
 #bottom_info {
@@ -82,7 +83,7 @@ nav ul li {
 	background: rgba(0, 0, 0, .5);
 	padding: 12px 1px;
 	position: relative;
-	margin-top: -64px;
+	margin-top: -73px;
 /*	right: 0;
 	left: 0;
 	top: 235px;*/
@@ -120,7 +121,6 @@ HOW IT WORKS
 }
 
 #how_icons {
-	max-width: 93%;
 	text-align: center;
 }
 
@@ -130,11 +130,12 @@ HOW IT WORKS
 }
 
 .icon {
-	max-width: 15%;
+	width: 15vw;
 }
 
 .arrow {
-	max-width: 10%;
+	width: 5vw;
+	margin-bottom: 15px;
 }
 
 #how_icons li p {
