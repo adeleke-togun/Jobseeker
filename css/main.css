@@ -1,184 +1,172 @@
-/**********************************
+/**************************************
 GENERAL
-**********************************/
+**************************************/
 
-/*body {
-	margin: 0;
-}*/
+.list {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 0.8em;
+}
 
 a {
 	text-decoration: none;
-	color: #000000;
+	color: #000;
 }
 
 h1 {
-	font-size: 1.4em;
+	font-family: 'Ubuntu', sans-serif;
+	padding-bottom: 8px;	
 }
 
-/*#wrapper {
-	max-width: 940px;
-	margin: 0 auto;
-	padding: 0 5%;
-}
-*/
 
 
-/**********************************
+/**************************************
 HEADER
-**********************************/
-
-nav {
-	background: rgba(230, 230, 230, .6);
-	padding: 2% 1%;
-}
+**************************************/
 
 #top_image {
-	min-width: 100%;
 	max-width: 100%;
-	position: relative;
-	opacity: .7;
+	min-width: 100%;
 }
 
 #logo {
-	position: absolute; 
-	top: 2em; 
-	left: 2em;
+	position: absolute;
+	top: 0.9em;
+	left: 3em;
+	max-height: 10%;
 }
 
+nav {
+	background: rgba(230, 230, 230, .5);
+	overflow: hidden;
+	padding: 1.0em 2.0em;
+	position: absolute;
+	top: 0;
+	left: 0
+	right: 0;
+	min-width: 89.5%;
+	max-width: 89.5%
+}
 
-.navigation {
-		position: absolute;
-		left: 0;
-		right: 0;
-		top: 0;
-		min-width: 100%;
-		min-height: 120%
-	}
-
-nav ul li {
-	display: inline-block;
-	font-size: 100%;
+nav ul {
 	float: right;
-	padding-right: 1em;
-	margin-top: 0; 
-}
-
-header img {
-/*	position: absolute;*/
-	min-width: 20%;
-	max-width: 20%;
-	margin-bottom: 0;
-}
-
-#post_a_job, #get_started {
-	padding: 6px 40px;
-	background-color: #009d28;
-	color: #fff;
-	border: none;
-	cursor: pointer;
-}
-
-#info h1 {
-	margin-bottom: 0.5em;
-}
-
-#info ul li {
-	margin-bottom: 0.2em;
-	font-size: 0.8em;
-	color: #000;
-}
-
-#info {
-		position: absolute;
-		bottom: 60%;
-		left: 15%;
-		right: auto;
-/*		position: absolute;
-		left: 3em;
-		right: 0;
-		top: 10em;*/
-		max-width: 60%;
-}
-
-.post_job {
-	max-width: 45%;
-}
-
-
-
-/**********************************
-HOW IT WORKS
-**********************************/
-
-#how_it_works {
-	min-height: 20em;
-	background: #f5f5f5;
-	text-align: center;
-}
-
-/*#how_it_works h1 {
-	padding: 5em auto;
-}
-*/
-/*#how_it_works ul {
-	max-width: 100%;
-	position: relative;
-}*/
-
-#how_it_works ul li {
-	min-width: 40%;
+	margin: 0;
 	padding: 0;
 }
 
-#how_it_works ul li {
+nav ul li {
+	float: left;
+	margin-right: 1.0em;
+}
+
+#post_a_job, #get_started {
+	 padding: 0.8em 2.5em;
+	 background-color: #009d28;
+	 color: #fff;
+	 border: none;
+	 cursor: pointer;
+}
+
+.list li {
+	padding-bottom: 4px;
+	font-size: 0.9em;
+}
+
+#top_info {
+	position: absolute;
+	top: 5.5em;
+	left: 7em;
+}
+
+#bottom_info {
+	text-align: center;
+	background: rgba(0, 0, 0, .5);
+	padding: 12px 1px;
+	position: relative;
+	margin-top: -64px;
+/*	right: 0;
+	left: 0;
+	top: 235px;*/
+}
+
+#bottom_info ul li {
 	display: inline-block;
-	margin: 1em 0 1em -5px;
+	color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 0.6em; 
+	font-weight: lighter;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+#bottom_info h1 {
+	color: #fff;
+	font-size: 1.2em;
+
+}
+
+
+
+/**************************************
+HOW IT WORKS
+**************************************/
+
+#how {
+	background: #f5f5f5;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 25px;
+	left: 0;
+	right: 0;
+}
+
+#how_icons {
+	max-width: 93%;
+	text-align: center;
+}
+
+#how ul li {
+	display: inline-block;
+	padding: 0;
+}
+
+.icon {
+	max-width: 15%;
 }
 
 .arrow {
-	height: 100px;
-	vertical-align: bottom;
+	max-width: 10%;
+}
+
+#how_icons li p {
+	font-family: 'Ubuntu', sans-serif;
 }
 
 
-
-
-/**********************************
-GET STARTED
-**********************************/
-
-#bottom_image {
-	min-width: 100%;
-	max-width: 100%;
-	max-height: 14em;
-	position: relative;
-	opacity: .6;
-}
+/**************************************
+LOOKING FOR A JOB
+**************************************/
 
 .looking {
-	text-align: center;
-	position: relative;
-	padding-top: 10%;
+     text-align: center;
+     position: relative;
+     padding-top: 10%;
+     background-image: url(../img/bg1t.jpg);
+     background-size: 100% 100%;
 }
 
 .looking h1 {
-	padding-bottom: 4%;
+     padding-bottom: 25px;
 }
 
 .looking ul {
-	padding: 0 0 10% 0;
+     padding: 0 0 10% 0;
 }
 
 .looking ul li {
-	margin-bottom: 0.2em;
-	font-size: 0.8em;
-	color: #000;
-	padding-bottom: 1%;
-}
-#looking_job {
-	background-image: url(../img/bg1t.jpg); 
-	background-size: 100% 100%;
-	position: relative;
+     margin-bottom: 0.2em;
+     font-size: 90%;
+     color: #000;
+     padding-bottom: 1%;
 }
 
 
@@ -188,33 +176,48 @@ GET STARTED
 **********************************/
 
 .partners {
-	padding-top: 5%;
-	text-align: center;
-}
-
-#partner_logos {
-	position: relative;
+     padding-top: 5%;
+     text-align: center;
 }
 
 #partner_logos li {
-	display: inline-block;
-	margin: 0;
+     display: inline-block;
+     margin: 0;
 }
 
 .partners h1 {
-	padding-bottom: 35px;
+     padding-bottom: 35px;
 }
+
 
 
 /**********************************
 FOOTER
 **********************************/
 
-footer ul li {
-	float: left;
-}
-
 .info {
-	background-color: #000;
+	padding-bottom: 5px;
+	background: #000;
+	padding-top: 35px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	border-top: 50px;
+	border-color: #009d28;
 }
 
+.info li {
+	display: inline-block;
+	padding-left: 12px;
+}
+
+.info li a {
+	font-family: 'Ubuntu', sans-serif;
+	color: #fff;
+	font-size: 0.6em;
+}
+
+#border {
+	margin-top: 15px;
+	background: #009d28;
+	height: 3px;
+}
